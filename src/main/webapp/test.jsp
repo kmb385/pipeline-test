@@ -8,5 +8,6 @@
 </head>
 <body>
 	This is a test JSP
+	This is another test
 </body>
 </html>
