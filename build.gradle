@@ -33,3 +33,21 @@ dependencies {
     providedCompile 'javax.servlet:servlet-api:2.5'
     runtime 'javax.servlet:jstl:1.1.2'
 }
+task hello << {
+    println 'Hello world!'
+}
+import org.ajoberstar.grgit.*
+
+buildscript{
+	repositories{
+		mavenCentral()
+	}
+	dependencies{
+		classpath 'org.ajoberstar:gradle-git:1.3.2'
+	}
+
+}
+
+task commit << {
+ println 'Default Running!'
+}
